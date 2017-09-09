@@ -14,6 +14,9 @@ module.exports = function(defaults) {
     'esw-cache-fallback': {
       patterns: [ '/' ],
       version: '1' // Changing the version will bust the cache
+    },
+    'ember-welcome-page': {
+      enabled: true
     }
   });
 
